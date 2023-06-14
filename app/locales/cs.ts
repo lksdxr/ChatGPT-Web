@@ -131,7 +131,7 @@ const cs: LocaleType = {
     Usage: {
       Title: "Stav účtu",
       SubTitle(used: any, total: any) {
-        return `Použito tento měsíc ${used*100}, předplaceno ${total*100}`;
+        return `Použito tento měsíc ${used*10}, předplaceno ${total*10}`;
       },
       IsChecking: "Kontroluji...",
       Check: "Zkontrolovat",

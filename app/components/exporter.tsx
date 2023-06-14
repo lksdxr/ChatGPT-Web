@@ -439,7 +439,7 @@ export function ImagePreviewer(props: {
           <div>
             <div className={styles["main-title"]}>盗梦空间</div>
             <div className={styles["sub-title"]}>
-              github.com/lksdxr/ChatGPT-Web
+              在梦中，我们可以找到我们失去的东西。
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />

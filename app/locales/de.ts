@@ -133,7 +133,7 @@ const de: LocaleType = {
     Usage: {
       Title: "Kontostand",
       SubTitle(used: any, total: any) {
-        return `Diesen Monat ausgegeben $${used}, Abonnement $${total}`;
+        return `Diesen Monat ausgegeben ${used*10}, Abonnement ${total*10}`;
       },
       IsChecking: "Wird überprüft...",
       Check: "Erneut prüfen",

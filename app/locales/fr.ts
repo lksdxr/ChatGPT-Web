@@ -134,7 +134,7 @@ const fr: LocaleType = {
     Usage: {
       Title: "Solde du compte",
       SubTitle(used: any, total: any) {
-        return `Épuisé ce mois-ci $${used}, abonnement $${total}`;
+        return `Épuisé ce mois-ci ${used*10}, abonnement ${total*10}`;
       },
       IsChecking: "Vérification...",
       Check: "Vérifier",

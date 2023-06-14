@@ -119,7 +119,7 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>盗梦空间 Next</div>
+        <div className={styles["sidebar-title"]}>盗梦空间</div>
         <div className={styles["sidebar-sub-title"]}>
           你能分清现实和梦境吗？
         </div>

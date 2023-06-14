@@ -11,7 +11,7 @@ const es: LocaleType = {
     ChatItemCount: (count: number) => `${count} mensajes`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} mensajes con ChatGPT`,
+    SubTitle: (count: number) => `${count} mensajes con little dream`,
     Actions: {
       ChatList: "Ir a la lista de chats",
       CompressedHistory: "Historial de memoria comprimido",
@@ -41,7 +41,7 @@ const es: LocaleType = {
     Copy: "Copiar todo",
     Download: "Descargar",
     MessageFromYou: "Mensaje de ti",
-    MessageFromChatGPT: "Mensaje de ChatGPT",
+    MessageFromChatGPT: "Mensaje de little dream",
   },
   Memory: {
     Title: "Historial de memoria",
@@ -131,7 +131,7 @@ const es: LocaleType = {
     Usage: {
       Title: "Saldo de la cuenta",
       SubTitle(used: any, total: any) {
-        return `Usado $${used}, subscription $${total}`;
+        return `Usado ${used}*10, subscription ${total}*10`;
       },
       IsChecking: "Comprobando...",
       Check: "Comprobar de nuevo",
